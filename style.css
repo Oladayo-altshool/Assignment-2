@@ -1,0 +1,161 @@
+body{
+    background-color: #F7FDFC;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.container{
+    width: 30%;
+    height: 275px;
+    text-align:left;
+}
+
+img{
+    height: 80px;
+    width: 80px;
+}
+
+h1{
+    line-height: 25px;
+}
+
+p{
+    display: inline;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #737373;
+    text-align: left;
+}
+
+.wrapper{
+    width: 50%;
+    height: 580px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 5px 5px 50px #0408131A;
+    border-radius: 6px;
+}
+
+.form-control{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #737373;
+}
+
+.input-control{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 45%;
+}
+
+.input-control label{
+    font-weight: 600;
+    color: black;
+
+}
+
+.input-control ::placeholder{
+    color: #737373;
+}
+
+.input-control input{
+    padding: 14px;
+    color: #737373;
+    border: 2px solid #f0f0f0;
+}
+
+.input-control select{
+    padding: 14px
+}
+
+.form-control-2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px; 
+}
+
+.form-control-2 .input-control{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    padding: 16px;
+    margin-top: 30px;
+    background-color: #2EC4B6;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+p{
+    columns: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+a{
+    color: #2EC4B6;
+}
+
+@media only screen and (max-width: 767px){
+body{
+    flex-direction: column;
+    /* background-color: red;  */
+    display: flex;    
+    padding-left: 20px; 
+    padding-right: 20px; 
+    height: fit-content;
+    /* border: 1px solid green; */
+}
+.wrapper{
+display: flex;
+flex-direction: column;
+/* margin-top: 180px; */
+width: 100%;
+/* border: 1px solid red; */
+padding: 0px;
+height: fit-content;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+/* border: 1px solid red; */
+width: 100%;
+}
+.form-control{
+display: flex;
+flex-direction: column;
+padding: 16px;
+/* border: 1px solid blue; */
+}
+
+.form-control-2{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    /* border: 1px solid green; */
+
+    }   
+.input-control{
+    width: 100%;
+    /* padding: 8px;
+} */
+}
+.btn{
+    padding: 16px;
+}
+.container p{
+    text-align: left;
+}
+}
